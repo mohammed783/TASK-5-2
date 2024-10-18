@@ -2,12 +2,13 @@ const input = document.querySelector('#input') ;
 const result = document.querySelector('#result') ; 
 const inputType = document.querySelector('#inputType') ; 
 const resultType = document.querySelector('#resultType') ;
-
+const convert = document.querySelector('.conv') ; 
 let inputTypeValue , resultTypeValue ; 
 
-input.addEventListener('keyup',myResult) ; 
-inputType.addEventListener('change' , myResult)
-resultType.addEventListener('change' , myResult)
+// input.addEventListener('keyup',myResult) ; 
+// inputType.addEventListener('change' , myResult)
+// resultType.addEventListener('change' , myResult)
+convert.addEventListener('click' , myResult)
 
 inputTypeValue = inputType.value ; 
 resultTypeValue = resultType.value ; 
